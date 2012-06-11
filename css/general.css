@@ -1,0 +1,180 @@
+
+/* hoja de estilos generales */    
+
+
+/* ! BASE STYLE ================== */
+
+body {
+	font: normal 1em/1em Helvetica, Arial, sans-serif;
+	text-align: center;
+	color: #ddd;
+	color: #5f6469;
+}
+
+a {
+	color: #545f65;
+	text-decoration: none;
+	border:none;
+	cursor: pointer;
+}
+
+a:hover {
+	color: #828c91;
+	text-decoration: none;
+}
+
+p {
+	padding: 3px 0;
+	font-style: normal;
+	font-size: 1.125em;
+	line-height: 1.15em;
+}
+
+p strong { color: #e50028; font-weight: bold;  }
+
+::-moz-selection
+{
+background:#8a8a8a;
+color:#fff !important;
+}
+ 
+::selection 
+{
+background:#8a8a8a;
+color:#fff !important;;
+}
+
+/* ! HEADINGS ================== */
+
+h1, h2, h4, h5, h6 {
+	display:block;
+	font-family: Helvetica, Arial, sans-serif; 
+	font-weight: normal;
+	color: #4c5055;
+}
+
+h1 { font-size: 2.5em; line-height: 1.25em; }
+
+h2 { font-size:2.083em; line-height:1.2em; }
+
+h3 { font-size:1.667em; line-height:1.1em; }
+
+h4 { font-size:1.25em; line-height:1.3em; }
+
+h5 { font-size:1.167em; line-height:1.2em; }
+
+h6 { font-size:1.167em; line-height:1.1em; }
+
+
+/* ! CONTENEDOR PARA IPAD ================== */
+
+#container {
+	width: 768px; 
+	height: 100%;
+	height: 1024px;
+	overflow: hidden;
+	margin: 0 auto;
+	position:relative;
+	text-align: left;
+}
+
+
+/* ! HEADER ================== */
+
+header { width: 100%; height: 85px; background: #535d63; }
+	header h1 { float: left; width: 100px; height: 35px; background: yellow; }
+		header h1 a { display: block; width: 100%; height: 100%; } 
+	header nav { float: right; padding: 0 35px 0 0;}
+		header nav ul {}
+			header nav ul li { float: left; margin: 0 1px; }  
+				header nav ul li a {
+					display: block;
+					color: #bbbfc1;
+					font: normal 1.125em/85px Helvetica, Arial, sans-serif;
+					height: 85px;
+					padding: 0 35px;
+					background: #444;
+				}  
+				header nav ul li a:hover { color: #fff;  }  
+				header nav ul li a.active { color: #fff; background: #838b8e; }
+
+
+/* ! CONTENIDO CENTRAL ================== */
+
+#main {
+	width: 768px;
+	height: 940px;
+	position: relative;
+	overflow: hidden;
+
+}
+
+/* ! SECCIÓN GRAL ================== */
+
+section {
+	clear: both;
+}
+
+/* ! SLIDER ================== */
+
+section.slider { width: 768px; height: 940px; overflow: hidden; background: #d1d1d1; }
+	section.slider ul.desplazable {}
+	section.slider ul.desplazable li { width: 768px; height: 940px; }
+	section.slider ul.desplazable li a { display: block; }
+
+
+/* ! COMPARTIR ================== */
+
+ul.comparte {
+	display: block;
+	width: 46px;
+	position: absolute;
+	z-index: 10;
+	right: 0;
+	top: 45px;
+}
+	ul.comparte li { margin-top: 10px;}
+	ul.comparte li:first-child { margin: 0;}
+		ul.comparte li a {
+			display: block;
+			width: 46px;
+			height: 46px;
+			background: #444;
+			overflow: hidden;
+		}
+
+
+/* ! FOOTER ================== */
+
+footer {
+	clear: both;
+	width: 768px;
+	height: 30px;
+	position: fixed;
+	bottom: 0;
+	left: 50%;
+	z-index: 20;
+	margin-left: -384px;
+	}
+	footer section.desplegable {
+		width: 648px;
+		background: #171719;
+		padding: 15px 60px;
+		height: 300px;
+		position: absolute;
+		top: 0;
+		left: 0;
+		
+		-webkit-transition: all 200ms ease-in-out;
+		-moz-transition: all 200ms ease-in-out;
+		-ms-transition: all 200ms ease-in-out;
+		-o-transition: all 200ms ease-in-out;
+		transition: all 200ms ease-in-out;	
+		
+	}
+
+footer:hover .desplegable{
+	top: -300px;
+}
+
+
