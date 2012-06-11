@@ -118,9 +118,9 @@ section {
 /* ! SLIDER ================== */
 
 section.slider { width: 768px; height: 940px; overflow: hidden; background: #d1d1d1; }
-	section.slider ul.desplazable {}
-	section.slider ul.desplazable li { width: 768px; height: 940px; }
-	section.slider ul.desplazable li a { display: block; }
+	section.slider ul.slides {}
+	section.slider ul.slides li { width: 768px; height: 940px; }
+	section.slider ul.slides li a { display: block; }
 
 
 /* ! COMPARTIR ================== */
@@ -131,7 +131,7 @@ ul.comparte {
 	position: absolute;
 	z-index: 10;
 	right: 0;
-	top: 45px;
+	top: 95px;
 }
 	ul.comparte li { margin-top: 10px;}
 	ul.comparte li:first-child { margin: 0;}
@@ -144,19 +144,19 @@ ul.comparte {
 		}
 
 
-/* ! FOOTER ================== */
+/* ! ADDS DESPLEGALBE ================== */
 
-footer {
+section.adds {
 	clear: both;
 	width: 768px;
-	height: 30px;
+	height: 36px;
 	position: fixed;
 	bottom: 0;
 	left: 50%;
 	z-index: 20;
 	margin-left: -384px;
 	}
-	footer section.desplegable {
+	section.adds .desplegable {
 		width: 648px;
 		background: #171719;
 		padding: 15px 60px;
@@ -173,8 +173,14 @@ footer {
 		
 	}
 
-footer:hover .desplegable{
+section.adds:hover .desplegable{
 	top: -300px;
+}
+
+/* ! FOOTER ================== */
+
+footer {
+	clear: both;
 }
 
 
