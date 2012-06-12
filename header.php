@@ -53,8 +53,8 @@
 			<nav>
 				<ul>
 					<li><a href="showroom.php" title="Showroom">Showroom</a></li>
-					<li><a href="" title="Concesionarios">Concesionarios</a></li>
-					<li><a href="" title="Más Información">Más Información</a></li>
+					<li><a href="concesionarios.php" title="Concesionarios">Concesionarios</a></li>
+					<li><a href="info.php" title="Más Información">Más Información</a></li>
 				</ul>
 			</nav>
 		</header>
