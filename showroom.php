@@ -11,7 +11,7 @@
 				</dd>
 			</dl>
 			
-			<dl>
+			<dl class="active">
 				<dt><a href="" title="Familiares">Familiares</a></dt>
 				<dd class="hidden">
 					<ul class="modelos">
@@ -20,7 +20,23 @@
 							<div class="info">
 								<h3>Modelo Automóvil</h3>
 								<h4>Desde $12.240.000</h4>
-								<a href="modelo.php" title="Ver Modelo">Ver Modelo</a>
+								<a class="btn" href="modelo.php" title="Ver Modelo">Ver Modelo</a>
+							</div>
+						</li>
+						<li>
+							<img src="images/autos/auto_1.jpg" alt="Conoce más" />
+							<div class="info">
+								<h3>Modelo Automóvil</h3>
+								<h4>Desde $12.240.000</h4>
+								<a class="btn" href="modelo.php" title="Ver Modelo">Ver Modelo</a>
+							</div>
+						</li>
+						<li>
+							<img src="images/autos/auto_1.jpg" alt="Conoce más" />
+							<div class="info">
+								<h3>Modelo Automóvil</h3>
+								<h4>Desde $12.240.000</h4>
+								<a class="btn" href="modelo.php" title="Ver Modelo">Ver Modelo</a>
 							</div>
 						</li>
 					</ul>

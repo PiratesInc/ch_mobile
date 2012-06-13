@@ -177,6 +177,81 @@ section.adds:hover .desplegable{
 	top: -300px;
 }
 
+
+/* ! SHOWROOM ================= */
+
+
+section.showroom {
+	padding-top: 70px;
+}
+	.showroom dl {
+		width: 80%;
+		clear: both;
+		margin: 0 auto;
+		margin-bottom: 25px;
+		overflow: hidden;
+	}
+		.showroom dl dt {
+			height: 50px;
+			background: #ececec;
+			line-height: 50px;
+		}
+		.showroom dl.active dt {
+			background: #f2c441;
+		}
+			.showroom dl dt a {
+				display: block;
+				padding-left: 25px;
+			}
+
+		.showroom dl dd {
+		
+		}
+			
+			.showroom dl dd ul {}
+			.showroom dl dd ul li { clear: both; }
+			.showroom dl dd img {
+				float: left;
+				width: 200px;
+				height: 150px;
+			
+			}
+			.showroom dl dd .info { float: right; width: 60%; }
+			.showroom dl dd a {
+				display: inline-block;
+			}
+			.showroom dl dd a.btn {
+				height: 38px;
+				line-height: 38px;
+				padding: 0 10px;
+				background: #d9b331;
+			}
+
+
+/* ! SECCION PADRES ================= */
+
+section.padre {
+	width: 80%;
+	margin: 0 auto;
+	padding-top: 70px;
+}
+	section.padre ul {
+		overflow: hidden;
+	}
+		section.padre ul li {
+			clear: both;
+			margin-bottom: 25px;
+			height: 50px;
+			background: #ececec;
+			line-height: 50px;
+		}
+		section.padre ul li a { display: block; }
+
+
+	section.padre ul.no { margin: 0; }
+		section.padre ul.no li { margin: 0; }
+
+
 /* ! FOOTER ================== */
 
 footer {

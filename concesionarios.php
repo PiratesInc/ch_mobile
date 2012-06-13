@@ -1,6 +1,6 @@
 <?php include 'header.php'; ?>
 		
-			<section class="concesionarios">
+			<section class="padre concesionarios">
 			
 				<ul class="acciones margen">
 					<li><a href="" title="Ubicación Actual">Ubicación Actual</a></li>

@@ -1,6 +1,6 @@
 <?php include 'header.php'; ?>
 		
-			<section class="mas_info">
+			<section class="padre mas_info">
 			
 				<ul class="acciones margen">
 					<li><a href="" title="Comunícate con Chevrolet">Comunícate con Chevrolet</a></li>

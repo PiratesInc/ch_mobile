@@ -54,9 +54,6 @@
 						</ul>
 				</div>
 			
-			
-			
-			
 				<ul class="comparte">
 					<li><a class="social facebook" href="" title="Compartir en Fecebook">Compartir en Facebook</a></li>
 					<li><a href="social twitter" title="Compartir en Twitter">Compartir en Twitter</a></li>
