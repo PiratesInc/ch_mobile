@@ -22,8 +22,6 @@
 				<div class="slider">
 					<ul class="slides">
 						<li><img src="images/auto_1/auto_color_1.jpg" alt="Modelo Color" /></li>
-						<li><img src="images/auto_1/auto_color_2.jpg" alt="Modelo Color" /></li>
-						<li><img src="images/auto_1/auto_color_3.jpg" alt="Modelo Color" /></li>
 					</ul>
 					
 					<nav class="tabs colores">

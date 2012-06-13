@@ -185,7 +185,7 @@ section.showroom {
 	padding-top: 70px;
 }
 	.showroom dl {
-		width: 80%;
+		width: 90%;
 		clear: both;
 		margin: 0 auto;
 		margin-bottom: 25px;
@@ -203,18 +203,14 @@ section.showroom {
 				display: block;
 				padding-left: 25px;
 			}
-
 		.showroom dl dd {
-		
 		}
-			
 			.showroom dl dd ul {}
 			.showroom dl dd ul li { clear: both; }
 			.showroom dl dd img {
 				float: left;
 				width: 200px;
 				height: 150px;
-			
 			}
 			.showroom dl dd .info { float: right; width: 60%; }
 			.showroom dl dd a {
@@ -231,26 +227,106 @@ section.showroom {
 /* ! SECCION PADRES ================= */
 
 section.padre {
-	width: 80%;
-	margin: 0 auto;
 	padding-top: 70px;
 }
-	section.padre ul {
+	ul.acciones {
 		overflow: hidden;
+		width: 90%;
+		margin: 0 auto;
 	}
-		section.padre ul li {
+		ul.acciones li {
 			clear: both;
 			margin-bottom: 25px;
 			height: 50px;
 			background: #ececec;
 			line-height: 50px;
 		}
-		section.padre ul li a { display: block; }
+		ul.acciones li a {
+			display: block;
+			padding-left: 25px;
+		}
 
+	section.padre ul.no { }
+		section.padre ul.no li { margin-bottom: 0; }
 
-	section.padre ul.no { margin: 0; }
-		section.padre ul.no li { margin: 0; }
+/* ! BREADCRUMBS ================= */
 
+section.breadcrumbs {
+	width: 100%;
+	height: 60px;
+	background: #e9e9e9;
+}
+	section.breadcrumbs a.generico {
+		height: 36px;
+		line-height: 36px;
+		padding: 0 10px;
+		float: left;
+	}
+	section.breadcrumbs nav { }
+	section.breadcrumbs ul {}
+		section.breadcrumbs ul li { float: left; height: 60px; line-height: 60px;  }
+
+/* ! MODELOS ================= */
+
+section.modelo { position: relative; }
+	section.modelo hgroup {
+		position: absolute;
+		top: 10%;
+		left: 10%;
+		z-index: 20;
+	}
+		section.modelo hgroup 1 {}
+		section.modelo hgroup 2 {}
+	section.modelo .slider {
+		width: 100%;
+		height: 450px;
+		position: relative;
+	}
+		section.modelo .slider ul.slides {
+		}
+			section.modelo .slider ul.slides li {
+				width: 100%;
+				height: 450px;
+			}
+		section.modelo .slider nav {
+			position: absolute;
+			bottom: 0;
+			height: 30px;
+			width: 100%;
+		}
+			section.modelo .slider nav ul {
+				text-align: center;
+			}
+				section.modelo .slider nav ul li {
+					margin: 0 10px;
+					display: inline;
+				}
+					section.modelo .slider nav ul li a {
+						width: 30px;
+						height: 30px;
+						display: inline-block;
+						overflow: hidden;
+					}
+	section.modelo .multimedia {
+		width: 90%;
+		margin: 0 auto;
+	}
+		section.modelo .multimedia ul {}
+			section.modelo .multimedia ul li {
+				float: left;
+				margin: 10px;
+			}
+				section.modelo .multimedia ul li a  {
+					display: block;
+					width: 210px;
+					height: 115px;
+					background: #ddd;
+				}
+		
+/* ! SINGLE PAGE ================== */
+
+article { padding: 5%; }
+		
 
 /* ! FOOTER ================== */
 
