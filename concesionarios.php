@@ -3,9 +3,23 @@
 			<section class="padre concesionarios">
 			
 				<ul class="acciones margen">
-					<li><a href="" title="Ubicación Actual">Ubicación Actual</a></li>
-					<li><a href="" title="Selecciona tu Región">Seleccionar Región</a></li>
-					<li><a href="" title="Selecciona tu Comuna">Seleccionar Comuna</a></li>
+					<li><a href="mapa.php" title="Ubicación Actual">Ubicación Actual</a></li>
+					<li>
+						<select>
+							<option>Seleccionar Región</option>
+							<option>Región I</option>
+							<option>Región V</option>
+							<option>Región X</option>
+						</select>
+					</li>
+					<li>
+						<select>
+							<option>Seleccionar Comuna</option>
+							<option>Comuna I</option>
+							<option>Comuna V</option>
+							<option>Comuna X</option>
+						</select>
+					</li>
 				</ul>
 			
 			

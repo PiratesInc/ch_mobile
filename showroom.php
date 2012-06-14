@@ -16,7 +16,7 @@
 				<dd class="hidden">
 					<ul class="modelos">
 						<li>
-							<img src="images/autos/auto_1.jpg" alt="Conoce más" />
+							<img src="img/auto_1.jpg" alt="Conoce más" />
 							<div class="info">
 								<h3>Modelo Automóvil</h3>
 								<h4>Desde $12.240.000</h4>
@@ -24,7 +24,7 @@
 							</div>
 						</li>
 						<li>
-							<img src="images/autos/auto_1.jpg" alt="Conoce más" />
+							<img src="img/auto_1.jpg" alt="Conoce más" />
 							<div class="info">
 								<h3>Modelo Automóvil</h3>
 								<h4>Desde $12.240.000</h4>
@@ -32,7 +32,7 @@
 							</div>
 						</li>
 						<li>
-							<img src="images/autos/auto_1.jpg" alt="Conoce más" />
+							<img src="img/auto_1.jpg" alt="Conoce más" />
 							<div class="info">
 								<h3>Modelo Automóvil</h3>
 								<h4>Desde $12.240.000</h4>

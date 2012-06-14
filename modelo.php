@@ -21,7 +21,7 @@
 				
 				<div class="slider">
 					<ul class="slides">
-						<li><img src="images/auto_1/auto_color_1.jpg" alt="Modelo Color" /></li>
+						<li><img src="img/auto_1_big.jpg" alt="Modelo Color" /></li>
 					</ul>
 					
 					<nav class="tabs colores">
@@ -35,20 +35,20 @@
 				</div>
 				
 				<ul class="acciones margen">
-					<li><a href="Cotiza éste automóvil">Cotízalo</a></li>
-					<li><a href="Descargar Catálogo">Descargar Catálogo</a></li>
-					<li><a href="Ver Características">Ver Características</a></li>
+					<li><a href="form_cotizar.php" title="Cotiza éste automóvil">Cotízalo</a></li>
+					<li><a href="form_descargar.php" title="Descargar Catálogo">Descargar Catálogo</a></li>
+					<li><a href="caracteristicas.php" title="Ver Características">Ver Características</a></li>
 				</ul>
 				
 				<div class="multimedia">
 					<h3>Multimedia</h3>
 						<ul>
-							<li><a href="" title="Contenido Multimedia"><img src="images/auto_1/thumb_1.jpg" /></a></li>
-							<li><a href="" title="Contenido Multimedia"><img src="images/auto_1/thumb_2.jpg" /></a></li>
-							<li><a href="" title="Contenido Multimedia"><img src="images/auto_1/thumb_3.jpg" /></a></li>
-							<li><a href="" title="Contenido Multimedia"><img src="images/auto_1/thumb_4.jpg" /></a></li>
-							<li><a href="" title="Contenido Multimedia"><img src="images/auto_1/thumb_5.jpg" /></a></li>
-							<li><a href="" title="Contenido Multimedia"><img src="images/auto_1/thumb_6.jpg" /></a></li>
+							<li><a href="" title="Contenido Multimedia"><img src="img/multimedia_1.jpg" /></a></li>
+							<li><a href="" title="Contenido Multimedia"><img src="img/multimedia_1.jpg" /></a></li>
+							<li><a href="" title="Contenido Multimedia"><img src="img/multimedia_1.jpg" /></a></li>
+							<li><a href="" title="Contenido Multimedia"><img src="img/multimedia_1.jpg" /></a></li>
+							<li><a href="" title="Contenido Multimedia"><img src="img/multimedia_1.jpg" /></a></li>
+							<li><a href="" title="Contenido Multimedia"><img src="img/multimedia_1.jpg" /></a></li>
 						</ul>
 				</div>
 			

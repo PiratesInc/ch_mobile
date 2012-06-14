@@ -206,13 +206,13 @@ section.showroom {
 		.showroom dl dd {
 		}
 			.showroom dl dd ul {}
-			.showroom dl dd ul li { clear: both; }
+			.showroom dl dd ul li { clear: both; border-bottom: 2px solid #ccc; overflow: hidden; }
 			.showroom dl dd img {
 				float: left;
 				width: 200px;
 				height: 150px;
 			}
-			.showroom dl dd .info { float: right; width: 60%; }
+			.showroom dl dd .info { float: right; width: 50%; padding: 5%; }
 			.showroom dl dd a {
 				display: inline-block;
 			}
@@ -271,8 +271,8 @@ section.breadcrumbs {
 section.modelo { position: relative; }
 	section.modelo hgroup {
 		position: absolute;
-		top: 10%;
-		left: 10%;
+		top: 3%;
+		left: 2%;
 		z-index: 20;
 	}
 		section.modelo hgroup 1 {}
@@ -283,14 +283,14 @@ section.modelo { position: relative; }
 		position: relative;
 	}
 		section.modelo .slider ul.slides {
+			padding-top: 35px;
 		}
 			section.modelo .slider ul.slides li {
 				width: 100%;
-				height: 450px;
+				height: 380px;
+				text-align: center;
 			}
 		section.modelo .slider nav {
-			position: absolute;
-			bottom: 0;
 			height: 30px;
 			width: 100%;
 		}
@@ -322,10 +322,12 @@ section.modelo { position: relative; }
 					height: 115px;
 					background: #ddd;
 				}
-		
-/* ! SINGLE PAGE ================== */
+				
+				
+/* ! SINGLE PAGE ================= */
 
-article { padding: 5%; }
+
+
 		
 
 /* ! FOOTER ================== */
