@@ -2,8 +2,10 @@
 /*  Hoja de Estilos para Chevrolet Mobile por Pirates Inc.
 -------------------------------------------------------------------------------*/
 @import url("css/reset.css");
-@import url("css/general.css");
 @import url("css/flexslider.css");
-@import url("css/gradientes.css");
+@import url("css/general.css");
+@import url("css/interiores.css");
+@import url("css/forms.css");
+
 
 

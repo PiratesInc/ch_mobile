@@ -1,0 +1,34 @@
+/* ================= SECTION FORMULARIO / FORMS ================ */
+
+section.formularios { }
+
+form { margin: 0 auto; width: 80%;  }
+	form fieldset {}
+	
+		form fieldset dl { clear: both; overflow: hidden; margin: 15px 0; }
+		form fieldset dl dt { width: 30%; }
+		form fieldset dl dd { width: 70%; }
+		
+		form input[type="text"],
+		form input[type="email"],
+		form input[type="tel"],
+		form textarea {
+			background: #edf0f4;
+			border: 2px solid #a9adb6;
+
+	        -webkit-box-shadow: inset 0px 1px 1px 0px rgba(0, 0, 0, 0.2);
+	        box-shadow: inset 0px 1px 1px 0px rgba(0, 0, 0, 0.2);
+	        
+		    -webkit-border-radius: 3px;
+		    border-radius: 3px;
+		    
+		    height: 28px;
+		    line-height: 28px;
+		    padding: 0 10px;
+		    
+		    width: 100%;
+        }
+		form textarea {
+			height: 250px;
+			resize: none;
+		}

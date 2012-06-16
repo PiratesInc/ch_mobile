@@ -9,10 +9,11 @@
   <title>Chevrolet Mobile</title>
   <meta name="description" content="Chevrolet Mobile">
 
-  <!-- Mobile viewport optimization h5bp.com/ad -->
+   <!-- Mobile viewport optimization http://goo.gl/b9SaQ -->
   <meta name="HandheldFriendly" content="True">
-  <meta name="MobileOptimized" content="320">
-  <meta name="viewport" content="width=device-width">
+  <meta name="MobileOptimized" content="320"/>
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=2.0"> -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
   <!-- Home screen icon  Mathias Bynens mathiasbynens.be/notes/touch-icons -->
   <!-- For iPhone 4 with high-resolution Retina display: -->
