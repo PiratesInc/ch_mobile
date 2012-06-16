@@ -21,6 +21,10 @@
 						</select>
 					</li>
 				</ul>
+				
+				<div class="promo">
+					<img src="img/promo_concesionarios.jpg" alt="Promoción Chevrolet" />
+				</div>
 			
 			
 			</section>

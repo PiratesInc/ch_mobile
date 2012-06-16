@@ -18,10 +18,10 @@
 				<form>
 					<fieldset>
 					
-						<dl>
+						<dl z>
 							<dt><label>Motivo de Contacto</label></dt>
 							<dd>
-								<select>
+								<select  data-mini="true">
 									<option>Financiamento GMAC</option>
 									<option>Consultas Generales</option>
 									<option>Soporte y Asistencia Técnica</option>

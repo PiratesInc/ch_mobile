@@ -2,17 +2,18 @@
 		
 			<section class="flexslider slider">
 				<ul class="slides">
-					<li><img src="img/h/slide_1.jpg" alt="Chevrolet" />slide 1</li>
-					<li><img src="img/h/slide_2.jpg" alt="Chevrolet" />slide 2</li>
-					<li><img src="img/h/slide_3.jpg" alt="Chevrolet" />slide 3</li>
+					<li><img src="img/h/slide_1.jpg" alt="Chevrolet" /></li>
+					<li><img src="img/h/slide_2.jpg" alt="Chevrolet" /></li>
+					<li><img src="img/h/slide_3.jpg" alt="Chevrolet" /></li>
+					<li><img src="img/h/slide_4.jpg" alt="Chevrolet" /></li>
 				</ul>
 				
 			</section>
 			
 			<ul class="comparte">
 				<li><a class="social facebook" href="" title="Compartir en Fecebook">Compartir en Facebook</a></li>
-				<li><a href="social twitter" title="Compartir en Twitter">Compartir en Twitter</a></li>
-				<li><a href="social google" title="Compartir en Google +">Compartir en Google +</a></li>
+				<li><a class="social twitter" href=""  title="Compartir en Twitter">Compartir en Twitter</a></li>
+				<li><a class="social googleplus" href=""  title="Compartir en Google +">Compartir en Google +</a></li>
 			</ul>
 			
 			<div class="video">
@@ -34,7 +35,7 @@
 						<li>Depósito o custodia del vehículo en caso de ocurrir el evento en horario no hábil.	</li>			
 					</ul>				
 					
-					<a class="send button" href="" title="Más información">Más información</a>
+					<a class="send button" href="" title="Más información"><span>></span>Más información</a>
 	
 				</div>
 			</section>

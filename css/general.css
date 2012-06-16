@@ -82,7 +82,7 @@ h6 { font-size:1.167em; line-height:1.1em; }
 /* ! HEADER ================== */
 
 header { width: 100%; height: 85px; background: #535d63; }
-	header h1 { float: left; width: 100px; height: 35px; background: yellow; }
+	header h1 { float: left; width: 100px; height: 35px; }
 		header h1 a { display: block; width: 100%; height: 100%; } 
 	header nav { float: right; padding: 0 35px 0 0;}
 		header nav ul {}
@@ -335,5 +335,14 @@ section.modelo { position: relative; }
 footer {
 	clear: both;
 }
+
+
+
+
+
+
+
+
+.ui-btn-inner { display: none!important;}
 
 

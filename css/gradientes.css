@@ -1,0 +1,141 @@
+/* ================= LISTAS / COLAPSABLES ================ */
+
+.showroom dl dt,
+ul.acciones li {
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid #c8c8c8;
+
+    
+	background: #d3d3d3; /* Old browsers */
+	background: -moz-linear-gradient(top,  #d3d3d3 0%, #ffffff 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d3d3d3), color-stop(100%,#ffffff)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #d3d3d3 0%,#ffffff 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #d3d3d3 0%,#ffffff 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #d3d3d3 0%,#ffffff 100%); /* IE10+ */
+	background: linear-gradient(top,  #d3d3d3 0%,#ffffff 100%); /* W3C */
+}
+
+.showroom dl.active dt,
+.showroom dl:hover dt,
+ul.acciones li:hover {
+	background: #f2c647; /* Old browsers */
+	background: -moz-linear-gradient(top,  #f2c647 0%, #f6d67a 50%, #f2c441 50%, #f2c441 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f2c647), color-stop(50%,#f6d67a), color-stop(50%,#f2c441), color-stop(100%,#f2c441)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #f2c647 0%,#f6d67a 50%,#f2c441 50%,#f2c441 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #f2c647 0%,#f6d67a 50%,#f2c441 50%,#f2c441 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #f2c647 0%,#f6d67a 50%,#f2c441 50%,#f2c441 100%); /* IE10+ */
+	background: linear-gradient(top,  #f2c647 0%,#f6d67a 50%,#f2c441 50%,#f2c441 100%); /* W3C */
+	
+}
+
+/* ================= BREADCRUMBS ================ */
+
+section.breadcrumbs {
+	height: 38px;
+	padding: 11px 5%;
+	width: 90%;
+	
+	background: #ffffff; /* Old browsers */
+	background: -moz-linear-gradient(top,  #ffffff 0%, #f8f8f8 2%, #efefef 25%, #e0e0e0 50%, #bababa 97%, #919191 98%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(2%,#f8f8f8), color-stop(25%,#efefef), color-stop(50%,#e0e0e0), color-stop(97%,#bababa), color-stop(98%,#919191)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #ffffff 0%,#f8f8f8 2%,#efefef 25%,#e0e0e0 50%,#bababa 97%,#919191 98%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #ffffff 0%,#f8f8f8 2%,#efefef 25%,#e0e0e0 50%,#bababa 97%,#919191 98%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #ffffff 0%,#f8f8f8 2%,#efefef 25%,#e0e0e0 50%,#bababa 97%,#919191 98%); /* IE10+ */
+	background: linear-gradient(top,  #ffffff 0%,#f8f8f8 2%,#efefef 25%,#e0e0e0 50%,#bababa 97%,#919191 98%); /* W3C */
+}
+
+section.breadcrumbs ul li {
+	height: 38px; line-height: 38px; font-weight: bold;
+    text-shadow: 0px 1px 0px #ffffff;
+    padding: 0 1%;
+        
+}
+
+section.breadcrumbs ul li a { text-shadow: 0px 1px 0px #ffffff; }
+
+
+.generico {
+    color: #fff;
+    border: 1px solid #eaeaea;
+    font-weight: bold;
+    
+    -webkit-box-shadow: inset 0px 0px 3px 0px rgba(0, 0, 0, 0.6);
+    box-shadow: inset 0px 0px 3px 0px rgba(0, 0, 0, 0.6);
+        
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+
+	background: #b3b7bd; /* Old browsers */
+	background: -moz-linear-gradient(top,  #b3b7bd 0%, #6a727d 85%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#b3b7bd), color-stop(85%,#6a727d)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #b3b7bd 0%,#6a727d 85%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #b3b7bd 0%,#6a727d 85%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #b3b7bd 0%,#6a727d 85%); /* IE10+ */
+	background: linear-gradient(top,  #b3b7bd 0%,#6a727d 85%); /* W3C */
+
+}
+
+/* ================= BOTON AMARILLO ================ */
+.button {
+	background: #f2c647; /* Old browsers */
+	background: -moz-linear-gradient(top,  #f2c647 0%, #f6d67a 50%, #f2c441 50%, #f2c441 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f2c647), color-stop(50%,#f6d67a), color-stop(50%,#f2c441), color-stop(100%,#f2c441)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #f2c647 0%,#f6d67a 50%,#f2c441 50%,#f2c441 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #f2c647 0%,#f6d67a 50%,#f2c441 50%,#f2c441 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #f2c647 0%,#f6d67a 50%,#f2c441 50%,#f2c441 100%); /* IE10+ */
+	background: linear-gradient(top,  #f2c647 0%,#f6d67a 50%,#f2c441 50%,#f2c441 100%); /* W3C */
+}
+
+/* ================= SECTIONS PATTERN ================ */
+section.single,
+section.formularios,
+section.mapa {
+	background: url(../img/bg_pattern.jpg) repeat;
+}
+
+/* ================= SECTIONS MODELO / VEHÍCULOS ================ */
+section.modelo {
+	background: #ffffff; /* Old browsers */
+	background: -moz-linear-gradient(top,  #ffffff 50%, #586166 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(50%,#ffffff), color-stop(100%,#586166)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #ffffff 50%,#586166 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #ffffff 50%,#586166 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #ffffff 50%,#586166 100%); /* IE10+ */
+	background: linear-gradient(top,  #ffffff 50%,#586166 100%); /* W3C */
+}
+
+/* ================= SECTION FORMULARIO / FORMS ================ */
+
+section.formularios { }
+
+form { margin: 0 auto; width: 80%;  }
+	form fieldset {}
+	
+		form fieldset dl { clear: both; overflow: hidden; margin: 15px 0; }
+		form fieldset dl dt { width: 30%; }
+		form fieldset dl dd { width: 70%; }
+		
+		form input[type="text"],
+		form input[type="email"],
+		form input[type="tel"],
+		form textarea {
+			background: #edf0f4;
+			border: 2px solid #a9adb6;
+
+	        -webkit-box-shadow: inset 0px 1px 1px 0px rgba(0, 0, 0, 0.2);
+	        box-shadow: inset 0px 1px 1px 0px rgba(0, 0, 0, 0.2);
+	        
+		    -webkit-border-radius: 3px;
+		    border-radius: 3px;
+		    
+		    height: 28px;
+		    line-height: 28px;
+		    padding: 0 10px;
+		    
+		    width: 100%;
+        }
+		form textarea {
+			height: 250px;
+			resize: none;
+		}

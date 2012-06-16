@@ -40,25 +40,67 @@
 	
 	<!-- Modernizr -->
 	<script src="js/libs/modernizr-2.0.6.min.js"></script>
+	
+	
+		
+	<!-- Awesome jQuery eyecandy -->
+	<script src="js/libs/jquery-1.7.1.min.js"></script>
+	<script type="text/javascript">
+	    $(document).bind("mobileinit", function(){
+		$.mobile.loadingMessage = false;
+		$.mobile.ajaxEnabled = false;
+		$.mobile.verticalDistanceThreshold = '75px'
+		$.mobile.horizontalDistanceThreshold = '15px'
+	    });
+	</script>
+	<script src="js/libs/jquery.mobile-1.1.0.js"></script>
+	<script src="js/libs/jquery.flexslider-min.js"></script>
+	<script type="text/javascript">
+	  $(document).ready(function(){
+	      $('.flexslider').flexslider();
+	      $('.showroom dt a').live('tap' ,function(e){
+		e.preventDefault();
+		if($(this).parent().parent().hasClass('active')){
+		  $('.showroom dd').slideUp();
+		  $(this).parent().parent().removeClass('active');
+		} else {
+		  $('.showroom dd').slideUp();
+		  $('.showroom dd').addClass('hidden');
+		  $('.showroom dl').removeClass('active');
+		  $(this).parent().parent().addClass('active');
+		  $(this).parent().next().slideDown();
+		  $(this).parent().next().removeClass('hidden')
+		}
+		  
+	      });
+	      $('.desplegable').bind('tap', function(e) {
+		  if($(this).parent().css('bottom') == '0px'){
+		    $(this).parent().animate({bottom: '-250px'});
+		  } else {
+		    $(this).parent().animate({bottom: '0px'});  
+		  }
+	       });
+	  });
+	</script>
 
   
 </head>
 
 <body>
 
-	<div id="container">
+	<div id="container" data-role="page">
 	
-		<header>
+		<header data-role="header">
 			<h1><a href="index.php" title="Chevrolet Mobile"><img src="img/chevrolet.png" alt="Chevrolet" /></a></h1>
 			<nav>
 				<ul>
-					<li><a href="showroom.php" title="Showroom">Showroom</a></li>
-					<li><a href="concesionarios.php" title="Concesionarios">Concesionarios</a></li>
-					<li><a href="info.php" title="Más Información">Más Información</a></li>
+					<li><a data-ajax="false" href="showroom.php" title="Showroom">Showroom</a></li>
+					<li><a data-ajax="false" href="concesionarios.php" title="Concesionarios">Concesionarios</a></li>
+					<li><a data-ajax="false" href="info.php" title="Más Información">Más Información</a></li>
 				</ul>
 			</nav>
 		</header>
 		
 		
 		
-		<div id="main" role="main">
+		<div id="main" data-role="content">

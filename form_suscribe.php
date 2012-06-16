@@ -28,12 +28,12 @@
 						</dl>
 						<dl>
 							<dt><label>RUT</label></dt>
-							<dd><input type="text" placeholder="12345678-9"></dd>
+							<dd><input type="tel" placeholder="12345678-9"></dd>
 						</dl>
 
 						<dl>
 							<dt><label>Email</label></dt>
-							<dd><input type="text" placeholder="usuario@correo.com"></dd>
+							<dd><input type="email" placeholder="usuario@correo.com"></dd>
 						</dl>
 						
 						<legend>Privacidad de Datos</legend>
@@ -43,7 +43,7 @@
 							<dd><p>Acepto recibir información acerca de Chevrolet</p></dd>
 						</dl>
 						
-						<input type="submit" value="Enviar">
+						<input type="submit" value="Enviar"  class="button">
 						
 					</fieldset>
 				</form>
