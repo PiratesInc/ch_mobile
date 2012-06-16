@@ -2,11 +2,30 @@
 
 section.formularios { }
 
+/* Fix jquery mobile */
+.ui-btn-inner { display: none; }
+
+
 form { margin: 0 auto; width: 80%;  }
-	form fieldset {}
+	form fieldset {  }
+		form fieldset legend {
+			font: bold 1.125em/1.2 Helvetica, Arial, sans-serif;
+			text-transform: uppercase;
+			text-shadow: 0px 1px 0px #ffffff;
+			padding: 10px 0;
+		}
 	
-		form fieldset dl { clear: both; overflow: hidden; margin: 15px 0; }
-		form fieldset dl dt { width: 30%; }
+		form fieldset dl {
+			clear: both;
+			overflow: hidden;
+			margin: 15px 0; height: 32px;
+			line-height: 32px;
+		}
+		
+		form fieldset dl.col_1 { width: 100%; }
+		form fieldset dl.col_2 { width: 50%; }
+		
+		form fieldset dl dt { width: 30%; float: left; }
 		form fieldset dl dd { width: 70%; }
 		
 		form input[type="text"],
@@ -25,8 +44,6 @@ form { margin: 0 auto; width: 80%;  }
 		    height: 28px;
 		    line-height: 28px;
 		    padding: 0 10px;
-		    
-		    width: 100%;
         }
 		form textarea {
 			height: 250px;
