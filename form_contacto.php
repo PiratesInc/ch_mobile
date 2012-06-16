@@ -18,10 +18,10 @@
 				<form>
 					<fieldset>
 					
-						<dl>
-							<dt>Motivo de Contacto</dt>
+						<dl z>
+							<dt><label>Motivo de Contacto</label></dt>
 							<dd>
-								<select>
+								<select  data-mini="true">
 									<option>Financiamento GMAC</option>
 									<option>Consultas Generales</option>
 									<option>Soporte y Asistencia Técnica</option>
@@ -43,7 +43,7 @@
 						
 						<dl>
 							<dt><label>RUT</label></dt>
-							<dd><input type="tel" placeholder="12345678-9"></dd>
+							<dd><input type="text" placeholder="12345678-9"></dd>
 						</dl>
 
 						<legend>Datos Contacto</legend>
@@ -72,12 +72,12 @@
 						
 						<dl>
 							<dt><label>Teléfono</label></dt>
-							<dd><input type="tel" placeholder="2345678"></dd>
+							<dd><input type="text" placeholder="2345678"></dd>
 						</dl>
 						
 						<dl>
 							<dt><label>Email</label></dt>
-							<dd><input type="email" placeholder="usuario@correo.com"></dd>
+							<dd><input type="text" placeholder="usuario@correo.com"></dd>
 						</dl>
 						
 						<legend>Vehículo de Interés</legend>
@@ -113,7 +113,7 @@
 						
 						
 						<dl>
-							<dt><input type="checkbox" class="button"></dt>
+							<dt><input type="checkbox"></dt>
 							<dd><p>Acepto recibir información acerca de Chevrolet</p></dd>
 						</dl>
 						
